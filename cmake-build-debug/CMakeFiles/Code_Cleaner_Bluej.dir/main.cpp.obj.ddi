@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\Code_Cleaner_Bluej.dir\\main.cpp.obj",
+            "outputs": [
+                "C:\\Users\\User\\CLionProjects\\Code_Cleaner_Bluej\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\Code_Cleaner_Bluej.dir\\main.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}
