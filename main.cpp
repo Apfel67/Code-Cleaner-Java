@@ -146,7 +146,7 @@ void processJavaFile(const std::filesystem::path& file)
     out << finalCode;
     out.close();
 
-    std::cout << "Verarbeitet: " << file << "\n";
+    std::cout << "processed: " << file << "\n";
 }
 
 // -------------------------------------------------------------
@@ -173,7 +173,7 @@ int main()
     try
     {
         auto base = getExecutableDir();
-        std::cout << "Star in Directory:\n" << base << "\n\n";
+        std::cout << "Start in Directory:\n" << base << "\n\n";
 
         processDirectory(base);
 
