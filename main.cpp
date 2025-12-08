@@ -7,7 +7,7 @@
 #include <regex>
 
 // -------------------------------------------------------------
-// Ordner der laufenden EXE ermitteln
+// Ordner des Programms ermitteln
 // -------------------------------------------------------------
 
 std::filesystem::path getExecutableDir()
@@ -125,7 +125,7 @@ void processJavaFile(const std::filesystem::path& file)
     std::ifstream in(file.string());
     if (!in)
     {
-        std::cerr << "Fehler beim Öffnen: " << file << "\n";
+        std::cerr << "Error opening File: " << file << "\n";
         return;
     }
 
@@ -139,7 +139,7 @@ void processJavaFile(const std::filesystem::path& file)
     std::ofstream out(file.string(), std::ios::trunc);
     if (!out)
     {
-        std::cerr << "Fehler beim Schreiben: " << file << "\n";
+        std::cerr << "Error in File: " << file << "\n";
         return;
     }
 
